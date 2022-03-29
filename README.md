@@ -22,3 +22,16 @@ Chrome:    https://sites.google.com/a/chromium.org/chromedriver/downloads
 Firefox: https://github.com/mozilla/geckodriver/releases
 
 Safari:    https://webkit.org/blog/6900/webdriver-support-in-safari-10/
+
+Dissecting the code:
+
+The above script is for logging into twitter and searching for geeks for geeks handle.
+
+So let’s see how it works:
+
+1. Opening the browser
+2. Creating a browser instance and using the .get function to connect the website.
+3. Finding the element this can be anything finding the input box or a button and using the selenium function like click(), send_keys(), etc to interact with the element.
+4. Closing the browser
+
+As of now you must have realized this automation script works in an iterative manner of finding an element and interacting with it. There are various ways of finding an element in the web page, you just right click and inspect element and copy element either by name, css selector or xpath.
