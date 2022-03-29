@@ -8,11 +8,13 @@ Mastering Selenium will help you automate your day to day tasks like controlling
 Installation
 
 1.1 Selenium Bindings in Python
+
 Selenium Python bindings provide a convenient API to access Selenium Web Driver like Firefox,Chrome,etc.
 
-Pip install Selenium 
+      Pip install Selenium 
 
 1.2 Web Drivers
+
 Selenium requires a web driver to interface with the chosen browser. Web drivers is a package to interact with a web browser. It interacts with the web browser or a remote web server through a wire protocol which is common to all. You can check out and install the web drivers of your browser choice.
 
 Chrome:    https://sites.google.com/a/chromium.org/chromedriver/downloads
